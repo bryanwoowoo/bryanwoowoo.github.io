@@ -1,0 +1,19 @@
+div {
+	width: 30%;
+	height: 20%;
+	border: 2px solid black;
+	padding: 50px;
+	margin: 50px;
+}
+
+h3 {
+	padding: 10px;
+}
+
+p {
+	padding: 50px;
+	border: 2px solid black;
+	width: 30%;
+	height: 20%;
+	margin: 50px;
+}
