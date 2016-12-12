@@ -1,0 +1,274 @@
+/* Global Styles */
+
+html { box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: inherit; }
+
+body {
+	background-color: #ececec;
+	margin: 0;
+	padding: 50px;
+	font-family: "Helvetica", sans-serif;
+	font-weight: normal;
+	font-size: 16;
+	line-height: 1.4em;
+	color: ;
+    background-image: url("IMG_1757.JPG");
+}
+
+
+img {
+	max-width: 100%
+
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px;
+
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+	letter-spacing: 15px;
+	line-height: 50px;
+}
+
+h2 {
+	letter-spacing: 10px;
+	padding: 20px;
+}
+
+h3 {
+	padding-bottom: 50px;
+	letter-spacing: 6px;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+h4 {
+	font-size: 14px;
+	text-align: center;
+	padding: 20px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	margin-top: 10px;
+}
+
+p {
+	letter-spacing: 6px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+p.bio {
+	letter-spacing: 1px;
+}
+
+a {
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+}
+
+span {
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+/* Header & Navigation */
+
+nav {
+	margin: auto;
+}
+
+header {
+	margin: 10px;
+	padding: 20px;
+	width: 100%;
+	background-color: #ECECEC;
+	text-align: center;
+}
+
+header h1 {
+	float: center;
+}
+
+header nav {
+	float: center;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	letter-spacing: 1px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 10px;
+
+}
+
+header nav ul li a {
+	text-decoration: none;
+
+}
+
+header nav ul li a.active {
+	color: black;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+	color: black;
+	border: 5px solid black;
+	width: 180px;
+	padding: 10px;
+	font-size: 12px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Layout */
+
+.container {
+	padding: 0px;
+	max-width: 100%;
+	margin: 0px auto;
+	position: inline; 
+	background: #ECECEC;
+}
+
+ul.thumbnails2 {
+	list-style: none;
+	display: inline;
+}
+
+
+
+ul.home-thumbnails {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap; /* for images to stack */
+	justify-content: center;
+	width: 100%;
+
+}
+
+ul.thumbnails2 li {
+	width: 40%; /* size of image */
+  	clear: both;
+	text-align: center;
+	display: inline-block;
+  	margin: 1em;
+
+}
+
+li.thumb {
+	display: inline;
+	clear: both;
+	width: 100%;
+}
+
+ul.thumbnails li img {
+	max-width: 100%;
+}
+
+
+/*Home Page Fade */
+
+
+
+
+/* Home Page Fade */
+
+
+/* Photography Fade */
+
+.content img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+}
+
+.content img {
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+
+/* Photography Fade */
+
+
+/* Content */
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  width: 45%;
+  margin: 1em;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+div.thumbnail {
+	width: 45%;
+}
+
+.profilepic {
+	width: 60%;
+	height: 100px;
+	margin: auto;
+}
+
+p.bio {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	line-height: 30px;
+	padding: 20px;
+}
+
+.active {
+	color: black;
+}
+/* Footer */
+
+/* MediaQueries */
+
+
